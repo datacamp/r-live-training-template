@@ -1,4 +1,4 @@
-FROM rocker/binder:3.6.2
+FROM rocker/binder:3.6.3
 
 ## Declares build arguments
 ARG NB_USER
@@ -16,3 +16,6 @@ RUN chown -R ${NB_USER} ${HOME}
 
 ## Become normal user again
 USER ${NB_USER}
+
+## Run an install.R script, if it exists.
+RUN if [ -f install.R ]; then R --quiet -f install.R; fi
