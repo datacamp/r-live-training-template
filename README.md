@@ -159,3 +159,6 @@ _**How to author your notebook: By uploading notebook into GitHub**_
 1. Preview your desired notebook, press on "Open in Colabs" extension - and start developing your content in colabs _(which will act as the solution code to the session)_.  Once you're done, press on `file` - `download .ipynb` file - and overwrite the notebook by uploading it into GitHub. 
 2. Once your notebooks is ready to go, give it the name `session_name_solution.ipynb` create an empty version of the Notebook to be filled out by you and learners during the session, end the file name with `session_name.ipynb`. 
 3. Create Colabs links for both sessions and save them in notebooks :tada: 
+
+
+You can check out either of those methods in action using this [recording](https://www.loom.com/share/1eeb148129244edd93fbc34bf5dc7f0d).
