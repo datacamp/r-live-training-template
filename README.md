@@ -146,6 +146,8 @@ To get yourself started with setting up your live session, follow the steps belo
 3. Upload your images, gifs, or any other assets you want to use in the notebook in the `assets` folder.
 4. Check out the notebooks templates in the `notebooks` folder, and keep the template you want for your session while deleting all remaining ones.
 
+You can author and save your progress on your notebook using **either** of these methods.
+
 _**How to author your notebook: By directly saving into GitHub**_
 
 1. Preview your desired notebook, press on "Open in Colabs" extension - and start developing your content in colabs _(which will act as the solution code to the session)_.  :warning: **Important** :warning: Your progress will **not** be saved on Google Colabs since it's a temporary link. To save your progress, make sure to press on `File`, `Save a copy in GitHub` and follow remaining prompts.
